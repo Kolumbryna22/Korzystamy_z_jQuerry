@@ -1,4 +1,4 @@
-# Kamien-papier-nozyce
+# Korzystamy_z_jQuerry
 
 ### to instal packages run:
 ```sh
@@ -9,4 +9,3 @@ $ npm install
 ```sh
 $ npm run watch
 ```
-# Korzystamy_z_jQuerry
