@@ -1,12 +1,11 @@
 $(function() {
     'use strict';
 
-    var span = $('span');
-    var paragraphs = $('p');
+    var $paragraphs = $('p');
     
     $('span:even').css('color', 'red');
 
-    paragraphs.each(function(index, element) {
+    $paragraphs.each(function(index, element) {
         var button = '<button class="btn" data-tmp="' + index + '">Click me</button>';
         $(element).append(button);
     });
